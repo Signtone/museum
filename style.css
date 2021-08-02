@@ -1,0 +1,558 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-B;
+  src: url("assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-T;
+  src: url("assets/fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-M;
+  src: url("assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Forum;
+  src: url("assets/fonts/Forum-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto";
+  font-size: 22px;
+}
+
+.li-menu {
+  list-style: none;
+  padding: 5px 37px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.li-sm {
+  list-style: none;
+  padding: 0px;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.ul-nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 720px;
+  height: 50px;
+  margin: 0px 40px;
+}
+
+hr {
+  background-color: #710707;
+  height: 3px;
+  border: none;
+}
+
+a {
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9d8665;
+  fill: #9d8665;
+  transition: 0.5s;
+}
+
+a:active {
+  color: #9d8665;
+}
+
+.logo {
+  padding: 0px 0px;
+  font-family: "Forum";
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  width: 100%;
+  position: relative;
+  left: 70px;
+  bottom: 20px;
+}
+
+.button-discover {
+  width: 360px;
+  height: 75px;
+  background-color: #710707;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.button-discover:hover {
+  background-color: #9d8665;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.section {
+  padding: 75px 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 0px;
+  max-width: 1440px;
+  width: calc(100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sm {
+  max-width: 100px;
+  height: 150px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 24px;
+  position: relative;
+  left: 615px;
+  padding: 0px;
+  bottom: 10px;
+}
+
+.container-col {
+  flex-direction: column;
+}
+
+.cont-centr {
+  align-items: center;
+}
+
+.heading {
+  font-family: "Forum";
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 5px;
+  width: 100%;
+  font-weight: 300;
+  margin: 0px 0px 103px;
+}
+
+.golg-color {
+  color: #9d8665;
+}
+
+.container-tour {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 926px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tour {
+  color: #030303;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 424px;
+}
+
+.header-container {
+  padding: 75px 75px;
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.dark-section {
+  background-color: #030303;
+  color: #ffffff;
+}
+
+.welcome-section {
+  height: 600px;
+  background-position: calc(50% + 352px) calc(50%);
+  background-image: url("assets/img/background.jpg");
+  background-size: 1215px 750px;
+  background-repeat: no-repeat;
+}
+
+.video-section {
+  padding-top: 90px;
+}
+
+.tickets-section {
+}
+
+.footer-container {
+  padding: 75px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.ul-nav-down {
+  line-height: 185%;
+  columns: 2;
+  column-gap: 150px;
+  height: 150px;
+  width: 366px;
+  margin: 0px;
+}
+
+.nav-down {
+  position: relative;
+  left: 180px;
+}
+
+.text-tour-360 {
+  font-size: 22px;
+  font-family: Roboto-T;
+  margin-bottom: 10px;
+}
+
+.text-small {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.text-small-buy-tickets {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.text-amount {
+  font-family: Roboto-B;
+  font-size: 28px;
+  text-align: right;
+}
+
+.switch {
+  width: 147px;
+  height: 47px;
+  background: #030303;
+  border: 3px solid white;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+
+#radio {
+  padding-left: 0px;
+}
+
+#buy-tickets {
+  align-items: flex-start;
+}
+
+#button-buy-tickets {
+  width: 175px;
+  height: 50px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#button-buy-tickets:hover {
+  background-color: #9d8665;
+  color: #030303;
+  transition: 0.5s;
+}
+
+.underline-tour {
+  position: relative;
+  font-family: Forum;
+  font-size: 32;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+.underline-tour::after {
+  content: "";
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  width: 300px;
+  height: 3px;
+  background-color: #710707;
+  transform: translateY(100%);
+}
+
+.tour:hover .underline-tour:after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.underline-title {
+  position: relative;
+}
+
+.underline-title::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #710707;
+}
+
+#video-player {
+  position: relative;
+  width: 1440px;
+  height: 85px;
+  background: #030303;
+}
+
+#button-back {
+  position: absolute;
+  top: 28px;
+  left: 41px;
+  width: 26px;
+  height: 30px;
+  background-color: #030303;
+  background-image: url("assets/svg/Back.svg");
+  color: #ffffff;
+  border: none;
+}
+
+#button-play {
+  position: absolute;
+  top: 28px;
+  left: 109px;
+  width: 23px;
+  height: 30px;
+  background-color: #030303;
+  background-image: url("assets/svg/Play.svg");
+  color: #ffffff;
+  border: none;
+}
+
+#button-next {
+  position: absolute;
+  top: 28px;
+  left: 173px;
+  width: 26px;
+  height: 29px;
+  background-color: #030303;
+  background-image: url("assets/svg/Next.svg");
+  color: #ffffff;
+  border: none;
+}
+
+#button-volume {
+  position: absolute;
+  top: 28px;
+  left: 1102px;
+  width: 38px;
+  height: 30px;
+  background-color: #030303;
+  background-image: url("assets/svg/Volume.svg");
+  color: #ffffff;
+  border: none;
+}
+
+#button-full-screen {
+  position: absolute;
+  top: 25px;
+  left: 1363px;
+  width: 36px;
+  height: 36px;
+  background-color: #030303;
+  background-image: url("assets/svg/FullScreen.svg");
+  color: #ffffff;
+  border: none;
+}
+
+.img-logo {
+  position: relative;
+  top: 10px;
+}
+
+#big-play {
+  position: absolute;
+  bottom: 49.2%;
+  left: 42.4%;
+  background: none;
+  border: none;
+}
+
+.progress {
+  background: linear-gradient(
+    to right,
+    #24809e 0%,
+    #24809e 46.5%,
+    #c4c4c4 46.5%,
+    #c4c4c4 100%
+  );
+  /* border: solid 2px #24809E; */
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  -webkit-transition: background 450ms ease-in;
+  -moz-transition: background 450ms ease-in;
+  -ms-transition: background 450ms ease-in;
+  -o-transition: background 450ms ease-in;
+}
+
+.progress::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #ffffff;
+}
+
+#ppr {
+  position: absolute;
+  top: 39px;
+  left: 241px;
+  width: 820px;
+  height: 8px;
+}
+
+#vr {
+  position: absolute;
+  top: 39px;
+  left: 1160px;
+  width: 155px;
+  height: 8px;
+}
+
+.number-tickets {
+  font-size: 22px;
+  background-color: #030303;
+  color: #ffffff;
+  border: none;
+  width: 40px;
+  height: 46px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.count-tickets {
+  width: 30px;
+  height: 30px;
+  font-size: 32px;
+  margin-top: 5px;
+  background-color: #030303;
+  color: #ffffff;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#sum {
+  font-family: Roboto-B;
+  font-size: 28px;
+  letter-spacing: 1.65px;
+  margin: 50px 0px;
+}
+
+span {
+  color: #9d8665;
+}
+
+.container-video {
+  position: relative;
+  height: 844px;
+  justify-content: flex-start;
+}
+
+.container-welcome {
+  justify-content: flex-start;
+  padding: 40px 0px;
+}
+
+.welcom-text {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 70px;
+}
+
+.explore-picture {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 700px;
+}
+
+.ticket-type-text {
+  font-family: Roboto-B;
+  font-size: 28px;
+  line-height: 100%;
+  margin: 5px 60px;
+}
+
+.radio {
+  list-style-type: none;
+  margin: 50px 60px;
+}
+
+.radio-text {
+  margin-left: 25px;
+}
+
+.text-contact-name {
+  font-size: 28px;
+  font-family: Roboto-M;
+  line-height: 1.22;
+  margin: 10px 0px 40px;
+}
+
+.text-contact {
+  margin: 20px 0px;
+}
+
+.container-footer-div {
+  justify-content: flex-start;
+}
+
+.sm-icon {
+  transition: all 0.5s ease;
+}
